@@ -1,16 +1,9 @@
-require 'bundler/setup'
-Bundler.require(:default)
+require './lower_middle_thing'
+require './middle_middle_thing'
+require './some_high_level_app'
 
-class HelloWorld
-  def response
-	[200, {"Content-Type" => "text/plain"}, ["Hello World"]]
-  end
-end
+use LowerMiddleThing
+use MiddleMiddleThing
+run SomeHighLevelApp
 
-class HelloWorldApp
-  def self.call(env)
-    HelloWorld.new.response
-  end
-end
 
-Rack::Server.start :app => HelloWorldApp

@@ -1,4 +1,15 @@
 A simple app to test out Rack:
+
+Spec:
+http://rack.rubyforge.org/doc/SPEC.html
+
+Builder Patter:
+http://en.wikipedia.org/wiki/Builder_pattern
+
+Resources:
 http://rubylearning.com/blog/a-quick-introduction-to-rack/
 http://hawkins.io/2012/07/rack_from_the_beginning/
 http://www.amberbit.com/blog/2011/07/13/introduction-to-rack-middleware/
+
+Extracted Middleware Library:
+https://github.com/mitchellh/middleware
