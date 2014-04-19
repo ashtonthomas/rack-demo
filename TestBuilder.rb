@@ -9,6 +9,10 @@ require './some_high_level_app'
 
 app = Rack::Builder.new do 
   
+  use Rack::Static,
+    :urls => ["/images", "/js", "/css"],
+    :root => "public"
+  
   use LowerMiddleThing
   use MiddleMiddleThing
   run SomeHighLevelApp

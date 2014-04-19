@@ -10,6 +10,7 @@ Resources:
 http://rubylearning.com/blog/a-quick-introduction-to-rack/
 http://hawkins.io/2012/07/rack_from_the_beginning/
 http://www.amberbit.com/blog/2011/07/13/introduction-to-rack-middleware/
+https://devcenter.heroku.com/articles/static-sites-ruby
 
 Extracted Middleware Library:
 https://github.com/mitchellh/middleware
