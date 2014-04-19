@@ -1,4 +1,5 @@
 A simple app to test out Rack:
+http://simple-static-rack.herokuapp.com/
 
 Spec:
 http://rack.rubyforge.org/doc/SPEC.html
